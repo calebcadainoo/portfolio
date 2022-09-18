@@ -1,5 +1,6 @@
 /* HEADER */
-.portfolio-header {
+.portfolio-header,
+.page-section {
   padding: 70px 15px;
 }
 
@@ -131,4 +132,16 @@
 .portfolio-subscribe a:hover img {
   width: 30px;
   filter: grayscale(0);
+}
+
+/* MY ADVANTAGE */
+.myadvantage {
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.h2-mid {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
 }

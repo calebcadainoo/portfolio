@@ -3,6 +3,10 @@ import YouTubeIcon from 'assets/youtube.png';
 import socials from 'assets/socials.json';
 import UpRightIcon from 'assets/up-right-arrow.png';
 
+/**
+ * Assembles all components required for the Hompage Header
+ * @returns Home Page Header
+ */
 const Header = () => {
 	return (
 		<header className="portfolio-header centroid under-section">

@@ -2,6 +2,7 @@ import 'css/Home.css';
 import { Header } from 'components/Header';
 import { NavBar } from 'components/Nav';
 import { TabTitle } from 'utils/Functions';
+import { MyAdvantage } from 'components/MyAdvantage';
 
 /**
  * Assembled components for Home Page
@@ -13,6 +14,7 @@ const Home = () => {
 		<div>
 			<NavBar />
 			<Header />
+			<MyAdvantage />
 		</div>
 	);
 };
