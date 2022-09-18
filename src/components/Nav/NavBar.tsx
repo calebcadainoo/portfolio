@@ -5,7 +5,7 @@ import YouTubeIcon from 'assets/youtube.png';
 import InstagramIcon from 'assets/instagram.png';
 import LinkedInIcon from 'assets/linkedin.png';
 import TwitterIcon from 'assets/twitter.png';
-import socials from './socials.json';
+import socials from 'assets/socials.json';
 
 /**
  * The navigation bar of page with icons, links and socials
@@ -31,7 +31,7 @@ const NavBar = () => {
 				<aside className="nav-social-list">
 					<NavSocial
 						icon={YouTubeIcon}
-						uri={socials.youtube}
+						uri={`${socials.youtube}?sub_confirmation=1`}
 						alt={'YouTube Channel'}
 					/>
 					<NavSocial

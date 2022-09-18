@@ -1,8 +1,11 @@
 import { BioTitle, InfoGapValue, MetricsValue } from '.';
+import YouTubeIcon from 'assets/youtube.png';
+import socials from 'assets/socials.json';
+import UpRightIcon from 'assets/up-right-arrow.png';
 
 const Header = () => {
 	return (
-		<header className="portfolio-header centroid">
+		<header className="portfolio-header centroid under-section">
 			<h1 className="h1-huge">
 				Caleb Crosby Adainoo <br />
 				Software Engineer & YouTuber
@@ -49,7 +52,14 @@ const Header = () => {
 
 				{/* IMAGE */}
 				<div className="portfolio-header-image">
-					<div className="portfolio-header-image-frame">hi</div>
+					<div className="portfolio-header-image-frame">
+						<div className="portfolio-header-image-holder">
+							<img
+								src="https://images.pexels.com/photos/5876785/pexels-photo-5876785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+								alt=""
+							/>
+						</div>
+					</div>
 				</div>
 
 				{/* METRICS */}
@@ -75,6 +85,18 @@ const Header = () => {
 					</InfoGapValue>
 				</div>
 			</section>
+
+			<div className="portfolio-subscribe">
+				<img src={YouTubeIcon} alt="Subscribe to Channel" />
+				<a
+					href={`${socials.youtube}?sub_confirmation=1`}
+					target="_blank"
+					rel="noreferrer"
+				>
+					Subscribe to My YouTube Channel
+					<img src={UpRightIcon} alt="Subscribe to YouTube Channel" />
+				</a>
+			</div>
 		</header>
 	);
 };
