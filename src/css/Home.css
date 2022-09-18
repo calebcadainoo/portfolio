@@ -3,9 +3,73 @@
   padding: 70px 15px;
 }
 
+.portfolio-spacer {
+  height: 90px;
+}
+
 .h1-huge {
   font-size: 5em;
   text-align: center;
   line-height: 1.1;
   font-weight: 300;
+}
+
+.bio-title {
+  font-size: 14px;
+  font-family: var(--font-lato);
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.metrics-value {
+  font-size: 72px;
+  text-align: right;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.info-gap-value {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 45px;
+}
+
+.portfolio-clues {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.portfolio-header-bio,
+.portfolio-header-image,
+.portfolio-header-metrics {
+  flex: 1;
+}
+
+.portfolio-header-image {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.portfolio-header-image-frame {
+  height: 786px;
+  width: 560px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 300px;
+}
+
+.portfolio-info-content {
+  font-size: 24px;
+}
+
+.a-hover {
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+}
+
+.a-hover:hover {
+  color: var(--theme-color);
 }

@@ -4,7 +4,7 @@
    --font-amiri: 'Amiri';
    --font-lato: 'Lato';
    --font-handlee: 'Handlee';
-   --theme-color: #0971f1;
+   --theme-color: #5e27e6;
    --dark-theme: #3a3a3a;
    --dark-theme-fore: rgba(255, 255, 255, 0.9);
  }
@@ -21,6 +21,11 @@
 
  * {
    box-sizing: border-box;
+ }
+
+ a {
+   text-decoration: none;
+   color: initial;
  }
 
  code {
