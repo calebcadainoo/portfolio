@@ -3,6 +3,7 @@ import { Header } from 'components/Header';
 import { NavBar } from 'components/Nav';
 import { TabTitle } from 'utils/Functions';
 import { MyAdvantage } from 'components/MyAdvantage';
+import { EducationExperience } from 'components/Education';
 
 /**
  * Assembled components for Home Page
@@ -15,6 +16,7 @@ const Home = () => {
 			<NavBar />
 			<Header />
 			<MyAdvantage />
+			<EducationExperience />
 		</div>
 	);
 };

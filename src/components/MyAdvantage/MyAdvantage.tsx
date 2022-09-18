@@ -34,6 +34,7 @@ import DroneIcon from 'assets/skills/drone.png';
 import GoogleIcon from 'assets/skills/google.png';
 import GoogleAdsIcon from 'assets/skills/adwords.png';
 import MSSuiteIcon from 'assets/skills/ms-suite.png';
+// import Auth0Icon from 'assets/skills/auth0.svg';
 
 /**
  * Assembles all components required for My Advantage section
@@ -56,7 +57,11 @@ const MyAdvantage = () => {
 					years={'.'}
 					text={'JavaScript'}
 				/>
-				<AdvantageCapsule icon={ReactIcon} years={'.'} text={'React'} />
+				<AdvantageCapsule
+					icon={ReactIcon}
+					years={'.'}
+					text={'React (Native)'}
+				/>
 				<AdvantageCapsule icon={CSSIcon} years={'.'} text={'CSS3'} />
 				<AdvantageCapsule
 					icon={TypeScriptIcon}
@@ -127,16 +132,13 @@ const MyAdvantage = () => {
 				<AdvantageCapsule icon={YouTubeIcon} years={'.'} text={'YouTube'} />
 				<AdvantageCapsule icon={GoogleIcon} years={'.'} text={'Googling'} />
 				<AdvantageCapsule icon={DroneIcon} years={'.'} text={'Drones'} />
-				<AdvantageCapsule
-					icon={GoogleAdsIcon}
-					years={'.'}
-					text={'Google Ads'}
-				/>
+				<AdvantageCapsule icon={GoogleAdsIcon} years={'.'} text={'Adwords'} />
 				<AdvantageCapsule
 					icon={MSSuiteIcon}
 					years={'.'}
 					text={'MicroSoft Suite'}
 				/>
+				{/* <AdvantageCapsule icon={Auth0Icon} years={'.'} text={'Auth0'} /> */}
 			</aside>
 		</div>
 	);

@@ -208,3 +208,31 @@
 .advantage-capsule-text {
   font-family: var(--font-lato);
 }
+
+/* EDUCATION EXPERIENCE */
+.education-exp {
+  text-align: center;
+}
+
+.edu-exp-list {
+  text-align: left;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.exp-tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-tab-position {
+  font-size: 30px;
+}
+
+.exp-tab-org {
+  font-size: 16px;
+  font-family: var(--font-lato);
+  opacity: 0.5;
+}
