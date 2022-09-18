@@ -163,6 +163,7 @@
   /* place-items: center; */
   overflow-y: auto;
   scroll-snap-type: x mandatory;
+  padding: 15px;
   padding-bottom: 30px;
 }
 
@@ -184,7 +185,13 @@
   justify-content: center;
   padding: 55px 15px;
   height: 285px;
-  background: var(--capsule-theme);
+  transition: 300ms ease-in-out;
+  -webkit-transition: 300ms ease-in-out;
+}
+
+.advantage-capsule-tab:hover {
+  /* background: var(--capsule-theme); */
+  box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.3);
 }
 
 .advantage-capsule-tab img {
