@@ -125,7 +125,8 @@
 }
 
 .portfolio-subscribe a:hover {
-  color: #ff0000;
+  /* color: #ff0000; */
+  color: var(--theme-color);
   text-decoration: underline;
 }
 

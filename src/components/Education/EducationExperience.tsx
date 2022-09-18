@@ -1,6 +1,9 @@
 import { BioTitle, InfoGapValue } from 'components/Header';
 import React from 'react';
 import { ExperienceTab } from '.';
+import LinkedInIcon from 'assets/linkedin.png';
+import UpRightIcon from 'assets/up-right-arrow.png';
+import socials from 'assets/socials.json';
 
 const EducationExperience = () => {
 	return (
@@ -12,7 +15,7 @@ const EducationExperience = () => {
 				{`"`}. - Albert Einstein.
 			</div>
 
-			<div className="edu-exp-list">
+			<section className="edu-exp-list">
 				{/* education */}
 				<div className="edu-container">
 					<InfoGapValue>
@@ -54,12 +57,7 @@ const EducationExperience = () => {
 				{/* experience 2 */}
 				<div className="exp-container">
 					<InfoGapValue>
-						<BioTitle text={'2019 - Present'} />
-
-						<ExperienceTab
-							position={'Lead Web Developer'}
-							org={'WayaMoney, Ghana, United Kingdom, Kenya, Nigeria'}
-						/>
+						<BioTitle text={'2018 - Present'} />
 
 						<ExperienceTab
 							position={'Fullstack Developer'}
@@ -71,12 +69,25 @@ const EducationExperience = () => {
 							org={'Manymarts, Oslo, Norway'}
 						/>
 
+						<ExperienceTab
+							position={'Lead Web Developer'}
+							org={'Wayamoney, United Kingdom'}
+						/>
+
 						{/* <ExperienceTab
 							position={'Fullstack Developer'}
 							org={'WayaMoney, United Kingdom'}
 						/> */}
 					</InfoGapValue>
 				</div>
+			</section>
+
+			<div className="portfolio-subscribe">
+				<img src={LinkedInIcon} alt="Subscribe to Channel" />
+				<a href={socials.linkedin} target="_blank" rel="noreferrer">
+					View My LinkedIn Profile
+					<img src={UpRightIcon} alt="Subscribe to YouTube Channel" />
+				</a>
 			</div>
 		</div>
 	);
