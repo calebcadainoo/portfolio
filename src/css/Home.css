@@ -1,0 +1,11 @@
+/* HEADER */
+.portfolio-header {
+  padding: 70px 15px;
+}
+
+.h1-huge {
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 300;
+}
