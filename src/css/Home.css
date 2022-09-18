@@ -145,3 +145,59 @@
   line-height: 1.2;
   font-weight: 400;
 }
+
+.quote-box {
+  font-size: 18px;
+  opacity: 0.7;
+  font-family: var(--font-handlee);
+  margin-bottom: 20px;
+  transform: translateY(-20px);
+}
+
+.advantage-capsule-list {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 35px;
+  row-gap: 50px;
+  /* justify-content: center; */
+  /* place-items: center; */
+  overflow-y: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 30px;
+}
+
+.advantage-capsule {
+  scroll-snap-align: start;
+  /* width: 170px; */
+  /* min-width: 170px; */
+  display: flex;
+  gap: 23px;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.advantage-capsule-tab {
+  border-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  padding: 55px 15px;
+  height: 285px;
+  background: var(--capsule-theme);
+}
+
+.advantage-capsule-tab img {
+  /* width: 90px; */
+  height: 90px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.advantage-capsule-tab-text {
+  font-size: 48px;
+}
+
+.advantage-capsule-text {
+  font-family: var(--font-lato);
+}
