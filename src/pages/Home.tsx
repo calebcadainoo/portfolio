@@ -4,6 +4,7 @@ import { NavBar } from 'components/Nav';
 import { TabTitle } from 'utils/Functions';
 import { MyAdvantage } from 'components/MyAdvantage';
 import { EducationExperience } from 'components/Education';
+import { Projects } from 'components/Projects';
 
 /**
  * Assembled components for Home Page
@@ -17,6 +18,7 @@ const Home = () => {
 			<Header />
 			<MyAdvantage />
 			<EducationExperience />
+			<Projects />
 		</div>
 	);
 };
