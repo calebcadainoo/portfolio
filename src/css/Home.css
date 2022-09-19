@@ -286,11 +286,27 @@
   scroll-snap-align: start;
 }
 
+.project-card-tag,
+.project-card-name,
+.project-card-img img {
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+}
+
 .project-card-img {
   width: 100%;
   height: 392px;
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 55px;
+  overflow: hidden;
+}
+
+.project-card-img img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  object-fit: cover;
+  filter: grayscale(20);
 }
 
 .project-card-img iframe {
@@ -301,9 +317,23 @@
 .project-card-tag {
   opacity: 0.5;
   margin-bottom: 10px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .project-card-name {
   font-size: 24px;
   opacity: 0.5;
+}
+
+/* hover effect */
+.project-card:hover img {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+.project-card:hover .project-card-tag,
+.project-card:hover .project-card-name {
+  opacity: 1;
 }
