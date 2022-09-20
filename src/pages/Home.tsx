@@ -5,6 +5,7 @@ import { TabTitle } from 'utils/Functions';
 import { MyAdvantage } from 'components/MyAdvantage';
 import { EducationExperience } from 'components/Education';
 import { Projects } from 'components/Projects';
+import { CallMe, Recommendations } from 'components/Footer';
 
 /**
  * Assembled components for Home Page
@@ -19,6 +20,8 @@ const Home = () => {
 			<MyAdvantage />
 			<EducationExperience />
 			<Projects />
+			<Recommendations />
+			<CallMe />
 		</div>
 	);
 };

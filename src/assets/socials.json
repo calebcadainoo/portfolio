@@ -2,5 +2,42 @@
   "youtube": "https://youtube.com/crosbyroads",
   "linkedin": "https://linkedin.com/in/calebcadainoo",
   "twitter": "https://twitter.com/calebcadainoo",
-  "instagram": "https://instagram.com/calebcadainoo"
+  "instagram": "https://instagram.com/calebcadainoo",
+  "recomendations": [
+    {
+      "quote": "Crosby worked at Waya as a web developer for almost 3 years. He’s very fast and great at designing our website and web platform. We landed a big merchant thanks to his efforts and working around the clock to get the prototype ready. Highly recommend Crosby for web developer roles. Such a talent too. ",
+      "author": "Delali Adiamah",
+      "position": "Founder at WayaMoney"
+    },
+    {
+      "quote": "Caleb is a dedicated young man who believes in doing great work and is very kind. He makes sure to put in the work and keep pushing till the desired results are obtained. In short, he's great at what he does and a great human being.",
+      "author": "Prince Banini",
+      "position": "Technical & Training Lead at Kumasi Hive"
+    },
+    {
+      "quote": "Crosby is a highly skilled, passionate and intelligent Fullstack developer with skills ranging from Web to Mobile development. His ability to plan, design and innovate makes him very relevant in any team he finds himself. Working with him for 3 years at Waya and my collaborations with him on small to medium sized projects has helped me sharpen some skills i wasn't comfortable with before especially in UI/UX. Crosby shows great attention to detail which is very evident in the projects he has worked on, a good communicator and a team player",
+      "author": "Kwame Fosu",
+      "position": "Lead Mobile App Developer at WayaMoney"
+    },
+    {
+      "quote": "Crosby stands out as an excellent developer and I admire him so much for his nifty dev tips. Also He comes off as someone who wants to see other developers grow in their expertise. Ever since I met him he sends me interesting job offers regularly which is really different from the norm.",
+      "author": "Eric Adjei",
+      "position": "Software Engineer"
+    },
+    {
+      "quote": "Accuracy and proficiency at dissolving complex problems into very easy pieces. Great skills and in-depth knowledge of his programming. Very excellent teacher and also a great personality.",
+      "author": "Sidney Okine",
+      "position": "Software Engineer at Hubtel"
+    },
+    {
+      "quote": "Crosby is highly skilled and passionate about knowledge sharing. He will be a great addition to your team for any project.",
+      "author": "Mike Attara",
+      "position": "Software Engineer"
+    },
+    {
+      "quote": "Crosby really has a can do attitude and a passion to make things happen. In both managing projects with huge revenue implications or helping out on the front line in times of disruption, Crosby will always give 100% making him a key part or any team. No hesitation in recommending him. Be it Mobile, web, desktop development, Crosby is your go-to guy.",
+      "author": "Benson Yeboah",
+      "position": "Software Engineer"
+    }
+  ]
 }

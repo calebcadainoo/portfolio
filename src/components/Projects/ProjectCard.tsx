@@ -16,7 +16,7 @@ interface IProjectCard {
 						tag={'Ecommerce Product'}
 						name={'Kinetic Mall'}
 						uri={'https://kineticmall.web.app'}
-					/>
+				/>
  * @returns Project Card Component
  */
 const ProjectCard = ({ image, tag, name, uri }: IProjectCard) => {
