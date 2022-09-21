@@ -5,7 +5,7 @@ import { TabTitle } from 'utils/Functions';
 import { MyAdvantage } from 'components/MyAdvantage';
 import { EducationExperience } from 'components/Education';
 import { Projects } from 'components/Projects';
-import { CallMe, Recommendations } from 'components/Footer';
+import { CallMe, Footer, Recommendations } from 'components/Footer';
 import { useEffect } from 'react';
 
 /**
@@ -33,6 +33,7 @@ const Home = () => {
 			<Projects />
 			<Recommendations />
 			<CallMe />
+			<Footer />
 		</div>
 	);
 };

@@ -432,3 +432,47 @@
   font-size: 12px;
   line-height: 1.5;
 }
+
+/* FOOTER */
+.porfolio-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+/* .porfolio-footer .copyright {
+  font-family: var(--font-lato);
+} */
+
+.porfolio-footer .subscribe {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: var(--font-lato);
+  font-size: 14px;
+}
+
+.porfolio-footer .subscribe a {
+  padding: 20px 0;
+}
+
+.porfolio-footer .subscribe img {
+  width: 0px;
+  height: 11px;
+  margin-left: 7px;
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+}
+
+.porfolio-footer .subscribe a:hover {
+  color: var(--theme-color);
+}
+
+.porfolio-footer .subscribe a:hover img {
+  width: 11px;
+}
+
+.porfolio-footer .socials {
+  display: flex;
+  gap: 20px;
+}
