@@ -6,7 +6,7 @@ const CallMe = () => {
 		<div className="centroid call-me-section page-section under-section">
 			<div className="call-me-circle">
 				<div>
-					<BioTitle text={'Describe your project'} />
+					<BioTitle text={'Describe your <br />project'} hasHTML />
 					<div className="call-me-text">
 						Call <br />
 						Crosby <br />

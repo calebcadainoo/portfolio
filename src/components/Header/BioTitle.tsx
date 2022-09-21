@@ -12,7 +12,7 @@ export interface IBioTitle {
 const BioTitle = ({ text, alignRight, hasHTML }: IBioTitle) => {
 	return hasHTML ? (
 		<div
-			className={`bio-title ${alignRight && 'text-right'}`}
+			className={`bio-title${alignRight ? ' text-right' : ''}`}
 			dangerouslySetInnerHTML={{ __html: text }}
 		/>
 	) : (
