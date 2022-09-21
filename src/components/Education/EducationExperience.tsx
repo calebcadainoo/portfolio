@@ -74,10 +74,10 @@ const EducationExperience = () => {
 							org={'Wayamoney, United Kingdom'}
 						/>
 
-						{/* <ExperienceTab
-							position={'Fullstack Developer'}
-							org={'WayaMoney, United Kingdom'}
-						/> */}
+						<ExperienceTab
+							position={'IoT Developer'}
+							org={'SmatGreen, Cape Coast, Ghana'}
+						/>
 					</InfoGapValue>
 				</div>
 			</section>

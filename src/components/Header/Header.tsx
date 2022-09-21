@@ -27,7 +27,7 @@ const Header = () => {
 						<BioTitle text="Biography" />
 						<p className="portfolio-info-content">
 							Work for money and design for love! I’m Crosby, a Software
-							Engineer & YouTuber based in Ghana. Working remotely.
+							Engineer, YouTuber & Guitarist. Working remotely.
 						</p>
 					</InfoGapValue>
 
