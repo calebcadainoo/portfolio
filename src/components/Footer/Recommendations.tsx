@@ -10,8 +10,9 @@ const Recommendations = () => {
 		<div className="centroid page-section under-section">
 			<aside className="recommendation-cover section-cover">
 				<div className="recommendations-list">
-					{socials.recomendations.map((recomend) => (
+					{socials.recomendations.map((recomend, id) => (
 						<RecommendCard
+							key={`rec-${id}`}
 							quote={recomend.quote}
 							author={recomend.author}
 							position={recomend.position}

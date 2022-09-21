@@ -398,12 +398,26 @@
   border: 1px dashed rgba(0, 0, 0, 0.5);
   display: grid;
   place-items: center;
+  color: #000;
 }
 
 .call-me-text {
   font-size: 100px;
   line-height: 0.9;
   padding-top: 20px;
+  /* background-image: linear-gradient(#fa4529, #fa4529); */
+  background-image: linear-gradient(90deg, #fa4529, #fa4529 50%, currentColor 0);
+  background-clip: text;
+  background-size: 200% 200%;
+  color: inherit;
+  background-position: 100% 0;
+  transition: background-position 600ms ease-in-out;
+  -webkit-text-fill-color: transparent;
+}
+
+.call-me-text:hover {
+  color: inherit;
+  background-position: 0 0;
 }
 
 .call-me-text img {
