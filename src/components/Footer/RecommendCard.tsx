@@ -7,7 +7,7 @@ interface IRecommendCard {
 const RecommendCard = ({ quote, author, position }: IRecommendCard) => {
 	return (
 		<div className="recommend-card">
-			<p>"{quote}</p>
+			<p>“{quote}”</p>
 			<div className="recommend-author">
 				<div className="author">{author}</div>
 				<div className="position">{position}</div>
