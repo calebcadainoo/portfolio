@@ -19,7 +19,7 @@ const Home = () => {
 		sectionCovers.forEach((section) => {
 			const fullHeight = Number(section.clientHeight);
 			// @ts-ignore
-			section.style.height = `${Number(fullHeight - 0)}px`;
+			section.style.height = `${Number(fullHeight - 20)}px`;
 		});
 		console.log(sectionCovers);
 	}, []);
