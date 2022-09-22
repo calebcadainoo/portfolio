@@ -8,15 +8,17 @@ import socials from 'assets/socials.json';
 const Recommendations = () => {
 	return (
 		<div className="centroid page-section under-section">
-			<div className="recommendations-list">
-				{socials.recomendations.map((recomend) => (
-					<RecommendCard
-						quote={recomend.quote}
-						author={recomend.author}
-						position={recomend.position}
-					/>
-				))}
-			</div>
+			<aside className="recommendation-cover section-cover">
+				<div className="recommendations-list">
+					{socials.recomendations.map((recomend) => (
+						<RecommendCard
+							quote={recomend.quote}
+							author={recomend.author}
+							position={recomend.position}
+						/>
+					))}
+				</div>
+			</aside>
 		</div>
 	);
 };

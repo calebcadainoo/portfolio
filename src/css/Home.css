@@ -342,6 +342,11 @@
 }
 
 /* RECOMMENDATIONS */
+.recommendation-cover {
+  height: auto;
+  overflow: hidden;
+}
+
 .recommendations-list {
   width: 100%;
   display: flex;
