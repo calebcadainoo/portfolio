@@ -13,7 +13,7 @@ import { useEffect } from 'react';
  * @returns Home Page of Portfolio
  */
 const Home = () => {
-	TabTitle("Crosby's Portfolio");
+	TabTitle('Portfolio • Caleb Crosby Adainoo');
 	useEffect(() => {
 		const sectionCovers = document.querySelectorAll('.section-cover');
 		sectionCovers.forEach((section) => {
