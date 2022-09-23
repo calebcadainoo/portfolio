@@ -25,9 +25,14 @@
    box-sizing: border-box;
  }
 
- a {
+ a,
+ a:visited {
    text-decoration: none;
    color: initial;
+ }
+
+ .App {
+   padding: 0px 10px;
  }
 
  code {

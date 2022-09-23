@@ -1,4 +1,5 @@
 import 'css/Nav.css';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { NavItem, NavSocial } from '.';
 import CrosbyLogo from 'assets/crosby-logo.png';
 import YouTubeIcon from 'assets/youtube.png';
@@ -16,11 +17,11 @@ const NavBar = () => {
 		<div className="nav-bar">
 			<div className="centroid nav-bar-inner">
 				{/* NAV LIST */}
-				<aside className="nav-list">
+				{/* <aside className="nav-list">
 					<NavItem title={'Home'} uri={'./'} />
 					<NavItem title={'Portfolio'} uri={'#portfolio'} />
 					<NavItem title={'Work'} uri={'#work'} />
-				</aside>
+				</aside> */}
 
 				{/* NAV LOGO */}
 				<aside className="nav-logo">

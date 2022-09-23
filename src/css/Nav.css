@@ -37,7 +37,8 @@
   flex: 3;
   height: 73px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: left;
 }
 
 .nav-logo img {
@@ -63,4 +64,26 @@
 
 .nav-social img:hover {
   filter: grayscale(0);
+}
+
+.cursor,
+.cursor-pointer {
+  width: 50px;
+  height: 50px;
+  /* background: rgba(0, 0, 0, 0.3); */
+  background: var(--theme-color);
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(220, 53, 69, 0.3);
+  transition: opacity 0.15s ease-in-out 0s, transform 0.75s ease-in-out 0s;
+  will-change: transform;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0;
+}
+
+.cursor-pointer {
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
 }

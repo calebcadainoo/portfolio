@@ -476,3 +476,133 @@
   display: flex;
   gap: 20px;
 }
+
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 1199px) {
+  .h1-huge {
+    font-size: 60px;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .portfolio-clues {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio-header-bio {
+    order: 2;
+  }
+
+  .portfolio-header-image {
+    order: 1;
+    grid-area: 1 / 1 / span 1 / span 2;
+  }
+
+  .portfolio-header-metrics {
+    order: 3;
+  }
+
+  .advantage-capsule-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .h1-huge {
+    font-size: 50px;
+  }
+
+  .h2-mid {
+    font-size: 44px;
+  }
+
+  .edu-exp-list {
+    max-width: 500px;
+    margin: auto;
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+
+  .call-me-circle {
+    width: unset;
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .portfolio-clues {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-header-image {
+    grid-area: unset;
+  }
+
+  .portfolio-header-metrics .bio-title.text-right,
+  .portfolio-header-metrics .metrics-value {
+    text-align: left;
+  }
+
+  .advantage-capsule-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .call-me-section {
+    height: unset;
+  }
+
+  .call-me-circle {
+    border: none;
+  }
+
+  .call-me-text {
+    font-size: 60px;
+  }
+
+  .call-me-text img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .porfolio-footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .porfolio-footer .socials {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .porfolio-footer .copyright {
+    order: 2;
+  }
+
+  .porfolio-footer .subscribe {
+    order: 1;
+  }
+
+  .porfolio-footer .socials {
+    order: 3
+  }
+}
+
+
+@media screen and (max-width: 599px) {
+  .portfolio-header-image-frame {
+    border: none;
+    width: 100% !important;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio-header-image-frame {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* END OF RESPONSIVENESS */
