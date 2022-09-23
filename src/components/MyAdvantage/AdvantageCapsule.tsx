@@ -1,4 +1,4 @@
-interface IAdvantageCapsule {
+export interface IAdvantageCapsule {
 	icon: string;
 	years: string;
 	text: string;

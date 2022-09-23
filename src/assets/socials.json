@@ -3,6 +3,148 @@
   "linkedin": "https://linkedin.com/in/calebcadainoo",
   "twitter": "https://twitter.com/calebcadainoo",
   "instagram": "https://instagram.com/calebcadainoo",
+  "skills": [
+    {
+      "skill": "HTML5",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/html-5.png?alt=media&token=852a6d5d-66e7-4a9c-92eb-a9701c8cde8f"
+    },
+    {
+      "skill": "CSS3",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/css-3.png?alt=media&token=1c81b8a1-1331-4d6e-b968-9f171a7ad532"
+    },
+    {
+      "skill": "JavaScript",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/js.png?alt=media&token=1aa1b2da-0687-4601-b0d7-d8e8285ad1d3"
+    },
+    {
+      "skill": "React",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/react.png?alt=media&token=1897303f-6e83-4054-9f5e-e0efd62ea1db"
+    },
+    {
+      "skill": "TypeScript",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/typescript.png?alt=media&token=3e7fff93-65df-4788-ab9b-54e19251e0a4"
+    },
+    {
+      "skill": "NodeJS",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/nodejs.png?alt=media&token=bc337f5a-0f2c-4d86-826a-4fc83e8a7626"
+    },
+    {
+      "skill": "MongoDB",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/mongodb.png?alt=media&token=df460e10-147d-4f52-8cab-cae4e19f5c59"
+    },
+    {
+      "skill": "GraphQL",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/graphql.png?alt=media&token=28b04f0b-b9b1-4249-a13f-9c20e53b2154"
+    },
+    {
+      "skill": "REST API",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/rest-api.png?alt=media&token=0d38af62-de19-411f-aa44-be41815e4c45"
+    },
+    {
+      "skill": "TailwindCSS",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/tailwind-css.png?alt=media&token=52ea6d9a-a090-40d3-8aba-bcf0f8e22e6d"
+    },
+    {
+      "skill": "Material UI",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/mui.svg?alt=media&token=2f7f6314-4511-480c-95e2-aad365e33dd2"
+    },
+    {
+      "skill": "Styled Components",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/styled-components.png?alt=media&token=78058e69-af6f-42cd-9797-4c5e8c8f5e6e"
+    },
+    {
+      "skill": "Ant Design",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/ant-design.svg?alt=media&token=7f03e34f-bae8-4aaf-91a8-cef76d38b3f8"
+    },
+    {
+      "skill": "Google Analytics",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/google-analytics.svg?alt=media&token=93736085-e6c3-4bf2-9bbe-8d341f90e4c9"
+    },
+    {
+      "skill": "jQuery",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/jquery.png?alt=media&token=f5faf227-aee5-4d3d-81f3-8eb67c7e53b0"
+    },
+    {
+      "skill": "Firebase",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/firebase.png?alt=media&token=5d605110-b46a-49dc-9187-83d0c32c430b"
+    },
+    {
+      "skill": "GCP",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/google-cloud-platform.png?alt=media&token=58d229d7-fb15-4065-b649-e964d3c6ef92"
+    },
+    {
+      "skill": "AWS(learning)",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/aws.png?alt=media&token=53ad300f-8fff-4366-b8f0-28641020d6c5"
+    },
+    {
+      "skill": "Git",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/git.png?alt=media&token=ec6071b6-918a-4b60-be62-c716d694f21e"
+    },
+    {
+      "skill": "Heroku",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/heroku.png?alt=media&token=2fd916c8-2683-4507-b44b-6ddb9ffe2782"
+    },
+    {
+      "skill": "GitHub Actions",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/github.png?alt=media&token=bdfa3062-cb0a-4743-88e3-0bf25a54cd3c"
+    },
+    {
+      "skill": "BitBucket Pipelines",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/bitbucket.png?alt=media&token=2f9eb873-2c1e-4442-bbf4-08e2d055ae05"
+    },
+    {
+      "skill": "ElectronJS",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/electronjs.png?alt=media&token=486c606a-daef-47ef-b7b1-030826ce2206"
+    },
+    {
+      "skill": "PHP",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/php.png?alt=media&token=d2e8a98f-7b56-4691-96d6-5ba265c2946b"
+    },
+    {
+      "skill": "VB.NET",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/vb-net.png?alt=media&token=fd035814-7ab0-4a89-a75a-603183f5af26"
+    },
+    {
+      "skill": "C#",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/c-sharp.png?alt=media&token=39d01921-364a-48fd-a6fd-63fbedf50d81"
+    },
+    {
+      "skill": "C++",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/c%2B%2B.png?alt=media&token=35475dfe-1798-455b-8b90-056f97ccc7dc"
+    },
+    {
+      "skill": "React Testing Library",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/react-testing.png?alt=media&token=ba3083e4-bf6b-4ed1-89db-bec43dbe8556"
+    },
+    {
+      "skill": "Cypress",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/cypress.png?alt=media&token=82f32bfc-00bf-4c9a-917e-1fbe2e562a08"
+    },
+    {
+      "skill": "Jest",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/jest.png?alt=media&token=b6883e20-28f3-43f0-b5da-6dc898036234"
+    },
+    {
+      "skill": "YouTube",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/youtube.png?alt=media&token=50cdc0d9-f8ba-4e04-bd5a-6a57b9044f97"
+    },
+    {
+      "skill": "Googling",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/google.png?alt=media&token=13bfb3c5-bce8-4d79-950c-ba80eb2b5148"
+    },
+    {
+      "skill": "Drones",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/drone.png?alt=media&token=1da43ee5-8f17-409a-a0b7-8d80f4b23813"
+    },
+    {
+      "skill": "Adwords",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/adwords.png?alt=media&token=37d6deb9-e0aa-4f03-b3b7-9a3aac087f94"
+    },
+    {
+      "skill": "MicroSoft Suite",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/calebcadainoo.appspot.com/o/ms-suite.png?alt=media&token=849300e4-f67b-4bee-9722-f4be89132c89"
+    }
+  ],
   "recomendations": [
     {
       "quote": "Crosby worked at Waya as a web developer for almost 3 years. He’s very fast and great at designing our website and web platform. We landed a big merchant thanks to his efforts and working around the clock to get the prototype ready. Highly recommend Crosby for web developer roles. Such a talent too. ",
